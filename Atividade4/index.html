@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLORESCER — Jornalismo com carinho</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <p>Segunda-feira, 14 de setembro de 2026</p>
+    <p>Notícias fresquinhas todos os dias</p>
+  </div>
+</header>
+
+<header class="masthead">
+  <div class="masthead__inner">
+    <a class="masthead__logo" href="#top">FLORESCER</a>
+    <nav class="masthead__nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#educacao">Educação</a></li>
+        <li><a href="#cidade">Cidade</a></li>
+        <li><a href="#bem-estar">Bem-estar</a></li>
+        <li><a href="#opiniao">Opinião</a></li>
+      </ul>
+    </nav>
+    <a class="masthead__cta" href="#assinar">Assinar</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" aria-label="Manchete principal">
+    <div class="hero__text">
+      <p class="hero__eyebrow">Educação · Vestibular</p>
+      <h1 class="hero__title">Fatecs abrem inscrições para o vestibular do 1º semestre de 2027</h1>
+      <p class="hero__dek">As Faculdades de Tecnologia do Estado de São Paulo começaram nesta segunda-feira o período de candidatura para o próximo ingresso. São mais de 21 mil vagas espalhadas por 96 unidades, com prazo até o dia 6 de novembro.</p>
+      <div class="hero__meta">
+        <span>Redação Florescer</span>
+        <span>·</span>
+        <span>Educação</span>
+        <span>·</span>
+        <span>3 min de leitura</span>
+      </div>
+    </div>
+    <figure class="hero__figure">
+      <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80" alt="Estudantes estudando em uma sala de aula">
+    </figure>
+  </section>
+
+  <section class="latest" id="educacao" aria-labelledby="latest-title">
+    <div class="section-head">
+      <h2 id="latest-title">Sobre o vestibular</h2>
+      <a href="#" class="section-head__link">Ver mais</a>
+    </div>
+
+    <div class="latest__list">
+      <article class="story">
+        <img class="story__img" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80" alt="Calendário sobre uma mesa">
+        <p class="story__cat">Cronograma</p>
+        <h3 class="story__title">Confira as datas do processo seletivo</h3>
+        <p class="story__dek">A prova será aplicada em 13 de dezembro e o resultado sai em 18 de janeiro de 2027.</p>
+      </article>
+
+      <article class="story">
+        <img class="story__img" src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=600&q=80" alt="Pessoa segurando dinheiro em espécie">
+        <p class="story__cat">Taxa de inscrição</p>
+        <h3 class="story__title">Inscrição custa R$ 90, com opção de isenção</h3>
+        <p class="story__dek">Quem pediu redução ou isenção da taxa até 11 de setembro recebe o resultado no dia 28.</p>
+      </article>
+
+      <article class="story">
+        <img class="story__img" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Grupo de jovens conversando em um campus">
+        <p class="story__cat">Cursos e vagas</p>
+        <h3 class="story__title">Mais de 100 opções de cursos em todo o estado</h3>
+        <p class="story__dek">As unidades oferecem formações em tecnologia, gestão, engenharias e outras áreas, com ensino gratuito.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="feature" id="opiniao" aria-labelledby="feature-title">
+    <figure class="feature__figure">
+      <img src="https://images.unsplash.com/photo-1522661067900-ab829854a57f?auto=format&fit=crop&w=800&q=80" alt="Estudante sorrindo com livros nos braços">
+    </figure>
+    <div class="feature__text">
+      <p class="hero__eyebrow">Opinião</p>
+      <blockquote class="feature__quote" id="feature-title">
+        Um vestibular gratuito é, para muita gente, a primeira porta aberta para o ensino superior.
+      </blockquote>
+      <p class="feature__author">— Coluna da Redação</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="assinar">
+  <div class="site-footer__top">
+    <div class="site-footer__brand">
+      <p class="masthead__logo" style="color:#fff;">FLORESCER</p>
+      <p>Notícias locais contadas com leveza.</p>
+    </div>
+
+    <nav class="site-footer__col" aria-label="Seções">
+      <h4>Seções</h4>
+      <ul>
+        <li><a href="#educacao">Educação</a></li>
+        <li><a href="#cidade">Cidade</a></li>
+        <li><a href="#bem-estar">Bem-estar</a></li>
+      </ul>
+    </nav>
+
+    <div class="site-footer__col">
+      <h4>Newsletter</h4>
+      <p>Receba as novidades toda semana.</p>
+      <div class="site-footer__form" role="group" aria-label="Inscrição na newsletter">
+        <label for="email" class="visually-hidden">Seu e-mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com">
+        <button type="button">Inscrever</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>© 2026 Florescer.</p>
+    <p>Exercício acadêmico.</p>
+  </div>
+</footer>
+
+</body>
+</html>
